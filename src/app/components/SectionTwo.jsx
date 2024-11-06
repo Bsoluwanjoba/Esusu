@@ -4,7 +4,7 @@ import React from 'react'
 export default function SectionTwo() {
   return (
     <section className='bg-[#cee] max-w-full'>
-        <div className='md:max-h-[450px] h-full w-full md:flex flex-wrap p-2 gap-24'>
+        <div className='md:max-h-[450px] h-full w-full md:flex flex-wrap p-2 gap-24 md:mr-0 mr-5'>
             <div className='md:mt-16 mt-5 md:ml-8 ml-5'>
             <h2 className='font-bold md:text-[35px] text-[30px] leading-[50px]'>Rotating savings groups</h2>
             <p className='mt-4 text-[#555] font-normal text-[18px] leading-[28px] max-w-[514px] max-h-[56px]'>Collectively save money with friends, family members and other people, and get payouts on a regular basis.</p>
