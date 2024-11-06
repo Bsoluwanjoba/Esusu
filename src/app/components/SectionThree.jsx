@@ -7,7 +7,7 @@ export default function SectionThree() {
             <h2 className='text-[40px] text-center font-bold'>How it works</h2>
             <p className='text-center text-[#555] text-[18px] leading-[28px]'>Start saving on the EsusuNest mobile app in four easy steps</p>
 
-                    <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+                    <div className='max-w-[1040px] m-auto md:pl-20 p-4 md:py-16 py-9'>
                         <div className="md:flex flex-wrap items-center gap-4">
                         <span className="">
                             <Image src="/Illustration (3).png" height={250} width={324} alt="image" />
@@ -19,11 +19,15 @@ export default function SectionThree() {
                         </div>
                         <Image src='/Vector 1.png' height={313.42} width={186.2} alt='pointer' className='text-[#39a] absolute right-20 top-[89em] md:block hidden'/>
                         <div className='mt-9 md:flex flex-wrap items-center gap-4'>
-                                <spa className='max-w-[495px] max-h-[88px] justify-center items-center'>
+                                <span className='max-w-[495px] max-h-[88px] justify-center items-center md:block hidden'>
                                 <h3 className='font-bold text-[24px]'>Setup your account</h3>
                                 <p className='text-[#555] text-[18px] leading-[28px]'>Complete your account setup to verify and secure your profile</p>
-                                </spa>
+                                </span>
                                 <span><Image src='/Illustration.png' height={250} width={324} alt='image'/></span>
+                                <span className='max-w-[495px] max-h-[88px] justify-center items-center md:hidden block'>
+                                <h3 className='font-bold text-[24px]'>Setup your account</h3>
+                                <p className='text-[#555] text-[18px] leading-[28px]'>Complete your account setup to verify and secure your profile</p>
+                                </span>
                         </div>
                         <Image src='/Vector 2.png' height={313.42} width={186.2} alt='pointer' className='text-[#39a] absolute left-8 top-[108em] md:block hidden'/>
                         <div className='mt-9 md:flex flex-wrap items-center gap-4'>
@@ -36,11 +40,15 @@ export default function SectionThree() {
                         <Image src='/Vector 1.png' height={313.42} width={186.2} alt='pointer' className='text-[#39a] absolute right-20 top-[125em] md:block hidden'/>
 
                         <div className='mt-7 md:flex flex-wrap gap-3 items-center '>
-                                <span className='max-w-[495px] max-h-[88px] justify-center items-center'>
+                                <span className='max-w-[495px] max-h-[88px] justify-center items-center md:block hidden'>
                                 <h3 className='font-bold text-[24px]'>Start saving</h3>
                                 <p className='text-[#555] text-[18px] leading-[28px]'>You can now start saving your money with your contribution group</p>
                                 </span>
                                 <span><Image src='/Illustration (2).png' height={250} width={324} alt='image'/></span>
+                                <span className='max-w-[495px] max-h-[88px] justify-center items-center md:hidden block'>
+                                <h3 className='font-bold text-[24px]'>Start saving</h3>
+                                <p className='text-[#555] text-[18px] leading-[28px]'>You can now start saving your money with your contribution group</p>
+                                </span>
                         </div>
                     </div>
     </section>

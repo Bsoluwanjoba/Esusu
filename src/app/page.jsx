@@ -11,11 +11,11 @@ export default function page() {
     <div className=''>
       <Header />
 
-      <div className='pt-36 ml-9'>
+      <div className='md:pt-36 pt-16 md:ml-9 ml-3'>
       <SectionOne />
       </div>
 
-      <div className='pt-56'>
+      <div className='pt-28'>
         <SectionTwo />
       </div>
 
