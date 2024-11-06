@@ -11,19 +11,19 @@ export default function page() {
     <div className=''>
       <Header />
 
-      <div className='md:pt-36 pt-16 md:ml-9 ml-3'>
+      <div className='md:pt-36 pt-16 md:ml-9 ml-3 m-auto max-w-[1024px] p-2'>
       <SectionOne />
       </div>
 
-      <div className='pt-28'>
+      <div className='pt-28 m-auto'>
         <SectionTwo />
       </div>
 
-      <div className='pt-[3rem]'>
+      <div className='pt-[3rem] m-auto max-w-[1024px] p-3'>
         <SectionThree />
       </div>
 
-      <div className='pt-[3rem] max-w-[1224px] m-auto'>
+      <div className='pt-[3rem] m-auto md:max-w-[1224px] max-w-[1004px] md:p-0 p-5'>
         <SectionFour />
       </div>
 
