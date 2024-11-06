@@ -11,7 +11,7 @@ export default function SectionFour() {
 
             <span className='max-w-[514px] max-h-[174px] items-center md:mt-0 mt-10'>
                 <h2 className='md:text-[40px] text-[34px] font-bold leading-[50px]'>Get the mobile app</h2>
-                <p className='md:w-[499px] w-[359px] text-[#555] md:text-[18px] text-[15px] leading-[28px] mt-3'>Download the EsusuNest mobile app and get started with your collective savings</p>
+                <p className='md:w-[499px] w-[309px] text-[#555] md:text-[18px] text-[15px] leading-[28px] mt-3'>Download the EsusuNest mobile app and get started with your collective savings</p>
 
                 <span className="md:flex block gap-4 mt-2">
                     <button className="bg-[#f70] md:p-2 p-3 flex rounded-md gap-2 leading-[20px] w-full text-center items-center"><FaApple size={24} className="text-white"/><p className="text-[14px] text-white">Download on App Store</p></button>
