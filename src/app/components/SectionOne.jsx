@@ -3,7 +3,7 @@ import { FaApple } from "react-icons/fa"
 
 export default function SectionOne() {
   return (
-    <div className='max-w-[1024px]'>
+    <div className=''>
         <section className='md:flex block gap-20'>
             <div className="max-w-[514px] max-h-[120px] mt-10">
                 <h2 className='font-bold md:text-[50px] text-[37px] leading-[60px]'>Bringing <i className='text-[#f70] font-medium'>esusu</i> closer to you</h2>
@@ -18,9 +18,10 @@ export default function SectionOne() {
 
             <div className='flex gap-2 md:mt-0 mt-[19em]'>
                 <Image src='/Mask group.png' height={460} width={340} alt="images" className="md:h-[460px] h-[320px] md:w-[340px] w-[200px]"/>
-                    <div className="space-y-4">
-                    <Image src='/shot-two-young-black-females-looking-phone-together-feeling-excited-surprised.png' height={220} width={340} alt="images" className="rounded-2xl"/>
-                    <Image src='/cheerful-businessman-taking-pictures-mobile-phone-posing-with-coffee-cup-camera-happy-freelancer-using-smartphone-take-photos-coffee-break-enjoying-modern-technology.png' height={260} width={440} alt="images" className="rounded-2xl"/>
+                    <div className="space-y-4 md:mt-0 mt-4">
+                    <Image src='/shot-two-young-black-females-looking-phone-together-feeling-excited-surprised.png' height={220} width={340} alt="images" className="rounded-2xl md:h-[220px] h-[140px] md:w-[340px] w-[150px]" />
+                    <Image src='/cheerful-businessman-taking-pictures-mobile-phone-posing-with-coffee-cup-camera-happy-freelancer-using-smartphone-take-photos-coffee-break-enjoying-modern-technology.png' height={260} width={440} alt="images" className="rounded-2xl md:h-[220px] h-[140px] md:w-[340px] w-[150px]" />
+                   
                     </div>
             </div>
         </section>

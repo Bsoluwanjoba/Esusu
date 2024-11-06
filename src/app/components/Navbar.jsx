@@ -32,21 +32,21 @@ export default function Header () {
               <button className="text-[12px] text-center pr-3 pl-3">Get Mobile App</button>
               </section>
 
-               <RxHamburgerMenu size={25} className="md:hidden block text-black relative z-[99] right-[18em]" onClick={toggleBar}/>
-               <MdCancel size={25} className="md:hidden block text-black relative z-[99] right-[18em]" onClick={toggleBar}/>
+               <RxHamburgerMenu size={28} className={`md:hidden block text-black relative z-[99] right-[2em] ${!open ? 'block' : 'hidden'}`} onClick={toggleBar}/>
+               <MdCancel size={28} className={`md:hidden block text-black relative z-[99] right-[2em] ${!open ? 'hidden' : 'block'}`} onClick={toggleBar}/>
 
                {
             open ? (
-                <div className='absolute z-[99] w-full h-screen bg-white flex flex-col justify-center items-center md:hidden'>
+                <div className='absolute z-[99] w-full h-screen bg-white flex flex-col justify-center items-center md:hidden top-16 max-h-[235px]'>
                        {/* Search bar */}
-              <section className="p-3 md:hidden block gap-16">
-              <Link href='/'>About</Link>
-              <Link href='/'>FAQs</Link>
-              <Link href='/'>Contact</Link>
+              <section className="p-3 md:hidden block flex-row space-y-5">
+              <p href='/'>About</p>
+              <p href='/'>FAQs</p>
+              <p href='/'>Contact</p>
               </section>
 
               {/* Notifications, Messages, Profile */}
-              <section className="p-2 gap-3 md:hidden block mr-14 bg-[#f70] text-white rounded-md text-center max-w-[140px]">
+              <section className="p-2 gap-3 md:hidden block bg-[#f70] text-white rounded-md text-center max-w-[140px] items-center mt-4">
               <button className="text-[12px] text-center pr-3 pl-3">Get Mobile App</button>
               </section>
 

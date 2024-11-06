@@ -11,7 +11,7 @@ export default function page() {
     <div className=''>
       <Header />
 
-      <div className='md:pt-36 pt-16 md:ml-9 ml-3 m-auto max-w-[1024px] p-2'>
+      <div className='md:pt-36 pt-16 md:ml-9 ml-3'>
       <SectionOne />
       </div>
 

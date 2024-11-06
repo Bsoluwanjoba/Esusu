@@ -17,7 +17,7 @@ export default function SectionThree() {
                             <p className="text-[#555] text-[18px] leading-[28px]">Download the app and create your account by providing the requested information</p>
                         </span>
                         </div>
-                        <Image src='/Vector 1.png' height={313.42} width={186.2} alt='pointer' className='text-[#39a] absolute right-20 top-[89em] md:block hidden'/>
+                        <Image src='/Vector 1.png' height={313.42} width={186.2} alt='pointer' className='text-[#39a] absolute right-[4em] top-[91em] md:block hidden'/>
                         <div className='mt-9 md:flex flex-wrap items-center gap-4'>
                                 <span className='max-w-[495px] max-h-[88px] justify-center items-center md:block hidden'>
                                 <h3 className='font-bold text-[24px]'>Setup your account</h3>
@@ -37,7 +37,7 @@ export default function SectionThree() {
                                 <p className='text-[#555] text-[18px] leading-[28px]'>Create your own contribution or join an already existing one, either private or open</p>
                                 </span>
                         </div>
-                        <Image src='/Vector 1.png' height={313.42} width={186.2} alt='pointer' className='text-[#39a] absolute right-20 top-[125em] md:block hidden'/>
+                        <Image src='/Vector 1.png' height={313.42} width={186.2} alt='pointer' className='text-[#39a] absolute right-[4em] top-[127em] md:block hidden'/>
 
                         <div className='mt-7 md:flex flex-wrap gap-3 items-center '>
                                 <span className='max-w-[495px] max-h-[88px] justify-center items-center md:block hidden'>

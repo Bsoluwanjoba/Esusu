@@ -4,9 +4,9 @@ export default function SectionFour() {
   return (
     <section className=''>
         <div className='bg-[#ffe] rounded-[40px] m-auto max-w-[1352px] md:max-h-[360px] h-full md:flex block gap-8 items-center md:p-0 p-3'>
-            <span className='flex gap-4 ml-9'>
-            <Image src='/iPhone 12 Mockup Front View (1).png' height={200} width={296} alt='pointer' className='mt-11' />
-            <Image src='/iPhone 12 Mockup Front View.png' height={312} width={296} alt='pointer'/>
+            <span className='flex gap-4 md:ml-9 ml-2'>
+            <Image src='/iPhone 12 Mockup Front View (1).png' height={200} width={296} alt='pointer' className="mt-11 md:h-[200px] h-[150px] md:w-[266px] w-[150px]"/>
+            <Image src='/iPhone 12 Mockup Front View.png' height={312} width={296} alt='pointer' className="md:h-[200px] h-[150px] md:w-[296px] w-[150px]"/>
                 </span>
 
             <span className='max-w-[514px] max-h-[174px] items-center md:mt-0 mt-10'>

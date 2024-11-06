@@ -16,14 +16,14 @@ export default function SectionTwo() {
 
             <div className='space-y-8 mt-5 pb-4'>
                 <div  className='flex md:gap-9 gap-3 md:ml-20 ml-5'>
-                <Image src='/young-emotional-african-american-man-woman-bright-casual-clothes-yellow-space-beautiful-couple.png' height={168} width={235} alt='image' className='md:rounded-[2.7em] rounded-3xl'/>
-                <Image src='/group-cheerful-friends-with-facemasks-having-drink-using-their-phones-park.png' height={168} width={235} alt='image' className='md:rounded-[2.7em] rounded-3xl'/>
+                <Image src='/young-emotional-african-american-man-woman-bright-casual-clothes-yellow-space-beautiful-couple.png' height={168} width={235} alt='image' className="md:h-[168px] h-[100px] md:w-[235px] w-[150px] md:rounded-[2.7em] rounded-3xl"/>
+                <Image src='/group-cheerful-friends-with-facemasks-having-drink-using-their-phones-park.png' height={168} width={235} alt='image' className="md:h-[168px] h-[100px] md:w-[235px] w-[150px] md:rounded-[2.7em] rounded-3xl"/>
                 </div>
 
 
-                <div className='flex gap-9 md:mr-8 mr-0 md:ml-0 ml-5'>
-                <Image src='/side-view-friends-with-smartphone.png' height={168} width={235} alt='image' className='md:rounded-[2.7em] rounded-3xl'/>
-                <Image src='/Mask group (1).png' height={168} width={235} alt='image' className='md:rounded-[2.7em] rounded-3xl'/>
+                <div className='flex md:gap-9 gap-4 md:mr-8 mr-0 md:ml-0 ml-4'>
+                <Image src='/side-view-friends-with-smartphone.png' height={168} width={235} alt='image' className="md:h-[168px] h-[100px] md:w-[235px] w-[150px] md:rounded-[2.7em] rounded-3xl"/>
+                <Image src='/Mask group (1).png' height={168} width={235} alt='image' className="md:h-[168px] h-[100px] md:w-[235px] w-[150px] md:rounded-[2.7em] rounded-3xl"/>
                 </div>
                 
                 
