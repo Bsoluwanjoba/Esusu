@@ -16,11 +16,11 @@ export default function SectionOne() {
             </div>
 
 
-            <div className='flex gap-4 md:mt-0 mt-[18em]'>
-                <Image src='/Mask group.png' height={460} width={340} alt="images" className=""/>
+            <div className='flex gap-2 md:mt-0 mt-[19em]'>
+                <Image src='/Mask group.png' height={460} width={340} alt="images" className="md:h-[460px] h-[320px] md:w-[340px] w-[200px]"/>
                     <div className="space-y-4">
-                    <Image src='/shot-two-young-black-females-looking-phone-together-feeling-excited-surprised.png' height={220} width={340} alt="images" className="rounded-3xl"/>
-                    <Image src='/cheerful-businessman-taking-pictures-mobile-phone-posing-with-coffee-cup-camera-happy-freelancer-using-smartphone-take-photos-coffee-break-enjoying-modern-technology.png' height={220} width={340} alt="images" className="rounded-3xl max-w-[340px]"/>
+                    <Image src='/Mask group (2).png' height={220} width={340} alt="images" className="rounded-3xl md:h-[220px] h-[150px] md:w-[340px] w-[160px]"/>
+                    <Image src='/Mask group (4).png' height={220} width={340} alt="images" className="rounded-3xl md:h-[220px] h-[150px] md:w-[340px] w-[160px]"/>
                     </div>
             </div>
         </section>

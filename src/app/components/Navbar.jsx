@@ -2,6 +2,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
+import { RxHamburgerMenu } from "react-icons/rx"
 export default function Header () {
   const [logout, setLogout] = useState(false)
 
@@ -14,7 +15,7 @@ export default function Header () {
                     <div className="w-full flex justify-between bg-white shadow-xl items-center flex-wrap fixed z-[99] h-[80px]">
 
               {/* Logo */}
-              <section className="p-3 z-[99] ml-12">
+              <section className="md:p-3 p-1 z-[99] md:ml-12 ml-4">
               <Image src="/EN BLACK TEXT2 1.png" alt="esusu" width={70} height={70}  />
               </section>
 
@@ -30,6 +31,9 @@ export default function Header () {
               <button className="text-[12px] text-center pr-3 pl-3">Get Mobile App</button>
               </section>
                </div>
+
+               {/* Hamburger Menu */}
+               <RxHamburgerMenu size={24} className="md:hidden block text-black"/>
             
     </div>
   )
